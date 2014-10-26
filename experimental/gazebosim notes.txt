@@ -1,0 +1,8 @@
+upgraded to virtualbox 4.3.10 (upgraded guest additions in manager, then in vm)
+http://askubuntu.com/a/22745/162919
+
+add vboxvideo to /etc/modules file
+
+sudo apt-get install mesa-utils, then run glxinfo
+
+export LIBGL_ALWAYS_SOFTWARE=1  ------ this works, but is slow
