@@ -69,3 +69,35 @@ cd /sys/class/gpio
 echo 76 > export
 cd gpio76
 echo in > direction
+
+# P8_40 - right encoder
+cd /sys/class/gpio
+echo 77 > export
+cd gpio77
+echo in > direction
+
+# gpio pins for infrared proximity sensors
+
+# P8_36 - front sensor
+cd /sys/class/gpio
+echo 80 > export
+cd gpio80
+echo in > direction
+
+# P8_37 - left sensor
+cd /sys/class/gpio
+echo 78 > export
+cd gpio78
+echo in > direction
+
+# P8_38 - right sensor
+cd /sys/class/gpio
+echo 79 > export
+cd gpio79
+echo in > direction
+
+# P8_35 - rear sensor
+cd /sys/class/gpio
+echo 8 > export
+cd gpio8
+echo in > direction
