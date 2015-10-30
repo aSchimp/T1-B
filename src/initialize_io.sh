@@ -6,6 +6,9 @@ cd /sys/devices/bone_capemgr.*
 # serial port for LIDAR
 echo BB-UART2 > slots
 
+# i2c bus for IMU - note that this is for the i2c1 pins (17 and 18, or 24 and 26) but the device file name will actually be the i2c-2 one
+echo BB-I2C1 > slots
+
 # PWM pin for LIDAR motor
 echo am33xx_pwm > slots
 echo bone_pwm_P9_14 > slots
