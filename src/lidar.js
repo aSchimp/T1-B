@@ -85,7 +85,7 @@ function Lidar(serialPath, pwmPath) {
     var self = this;
     self._pwmPath = pwmPath;
     self._lidarStopped = true;
-    self._pwmDuty = 380000;
+    self._pwmDuty = 710000;
     self._serialPort = new SerialPort(serialPath, {
         baudrate: 115200
     });
