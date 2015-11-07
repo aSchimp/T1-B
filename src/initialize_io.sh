@@ -6,6 +6,9 @@ cd /sys/devices/bone_capemgr.*
 # serial port for LIDAR
 echo BB-UART2 > slots
 
+# extra serial port
+# echo BB-UART4 > slots
+
 # i2c bus for IMU - note that this is for the i2c1 pins (17 and 18, or 24 and 26) but the device file name will actually be the i2c-2 one
 echo BB-I2C1 > slots
 
@@ -24,6 +27,9 @@ sleep 1s
 
 # set baud rate for LIDAR serial port
 stty -F /dev/ttyO2 115200
+
+# set baud rate for extra serial port
+# stty -F /dev/ttyO4 115200
 
 # ensure lidar pwm is off
 cd /sys/devices/ocp.*/pwm_test_P9_14.*
