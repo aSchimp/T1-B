@@ -1,0 +1,5 @@
+Fasteners for main circuit board
+ - Nuts: DURATOOL   M2.5- HFST-Z100-  FULL NUT, STEEL, BZP, M2.5: http://www.newark.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15003&langId=-1&urlRequestType=Base&partNumber=53M8595&storeId=10194
+ - Top washers (between board and screw head): KEYSTONE     3114  FASTENERS, NYLON WASHER - external diameter: 4.75mm - inner diameter: 2.49mm - length: 0.81mm - http://www.newark.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15003&langId=-1&urlRequestType=Base&partNumber=62W5013&storeId=10194
+ - Spacer washers (between board and chassis): RAF ELECTRONIC HARDWARE  1124-8-N  SPACER, NYLON, 6.35MM X 6.35MM - inner diameter: 4.216MM: http://www.newark.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15003&langId=-1&urlRequestType=Base&partNumber=27T8547&storeId=10194
+ - Screws: DURATOOL     M2.512 PRSTMCZ100-  SCREW, POZI PAN, STEEL, M2.5X12: http://www.newark.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15003&langId=-1&urlRequestType=Base&partNumber=53M8605&storeId=10194

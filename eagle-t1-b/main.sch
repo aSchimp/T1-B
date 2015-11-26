@@ -12846,14 +12846,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="3.81" x2="-10.16" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="3.81" x2="-10.16" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="-10.16" y2="3.81" width="0.127" layer="51"/>
+<wire x1="-10.16" y1="3.81" x2="-10.16" y2="-3.81" width="0.127" layer="51"/>
+<wire x1="-10.16" y1="-3.81" x2="-1.27" y2="-3.81" width="0.127" layer="51"/>
 <text x="2.54" y="2.54" size="1.27" layer="25">&gt;Name</text>
 <text x="2.54" y="0" size="0.8128" layer="27">&gt;Value</text>
 <text x="-7.62" y="-1.27" size="0.6096" layer="51">Sensor
 Overhang
 Area</text>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
 </package>
 <package name="JST-S3B-PH-K-S">
 <description>Be sure to leave room to plug in the cable.</description>
@@ -12891,6 +12893,38 @@ Area</text>
 <wire x1="5.7023" y1="-6.35" x2="5.7023" y2="6.35" width="0.127" layer="21"/>
 <text x="6.35" y="5.08" size="1.27" layer="25">&gt;Name</text>
 <text x="6.35" y="2.54" size="0.8128" layer="27">&gt;Value</text>
+</package>
+<package name="FTSH-112-01-L-D">
+<pad name="P$1" x="-0.635" y="6.985" drill="0.6" diameter="0.9398" shape="square"/>
+<pad name="P$2" x="-0.635" y="5.715" drill="0.6" diameter="0.9398"/>
+<pad name="P$3" x="-0.635" y="4.445" drill="0.6" diameter="0.9398"/>
+<pad name="P$4" x="-0.635" y="3.175" drill="0.6" diameter="0.9398"/>
+<pad name="P$5" x="-0.635" y="1.905" drill="0.6" diameter="0.9398"/>
+<pad name="P$6" x="-0.635" y="0.635" drill="0.6" diameter="0.9398"/>
+<pad name="P$7" x="-0.635" y="-0.635" drill="0.6" diameter="0.9398"/>
+<pad name="P$8" x="-0.635" y="-1.905" drill="0.6" diameter="0.9398"/>
+<pad name="P$9" x="-0.635" y="-3.175" drill="0.6" diameter="0.9398"/>
+<pad name="P$10" x="-0.635" y="-4.445" drill="0.6" diameter="0.9398"/>
+<pad name="P$11" x="-0.635" y="-5.715" drill="0.6" diameter="0.9398"/>
+<pad name="P$12" x="-0.635" y="-6.985" drill="0.6" diameter="0.9398"/>
+<pad name="P$13" x="0.635" y="-6.985" drill="0.6" diameter="0.9398"/>
+<pad name="P$14" x="0.635" y="-5.715" drill="0.6" diameter="0.9398"/>
+<pad name="P$15" x="0.635" y="-4.445" drill="0.6" diameter="0.9398"/>
+<pad name="P$16" x="0.635" y="-3.175" drill="0.6" diameter="0.9398"/>
+<pad name="P$17" x="0.635" y="-1.905" drill="0.6" diameter="0.9398"/>
+<pad name="P$18" x="0.635" y="-0.635" drill="0.6" diameter="0.9398"/>
+<pad name="P$19" x="0.635" y="0.635" drill="0.6" diameter="0.9398"/>
+<pad name="P$20" x="0.635" y="1.905" drill="0.6" diameter="0.9398"/>
+<pad name="P$21" x="0.635" y="3.175" drill="0.6" diameter="0.9398"/>
+<pad name="P$22" x="0.635" y="4.445" drill="0.6" diameter="0.9398"/>
+<pad name="P$23" x="0.635" y="5.715" drill="0.6" diameter="0.9398"/>
+<pad name="P$24" x="0.635" y="6.985" drill="0.6" diameter="0.9398"/>
+<wire x1="-1.905" y1="8.255" x2="1.905" y2="8.255" width="0.127" layer="21"/>
+<wire x1="1.905" y1="8.255" x2="1.905" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-8.255" x2="-1.905" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-8.255" x2="-1.905" y2="8.255" width="0.127" layer="21"/>
+<text x="2.54" y="6.35" size="1.27" layer="25">&gt;Name</text>
+<text x="2.54" y="3.81" size="0.8128" layer="27">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -13412,9 +13446,9 @@ Weight:
 </device>
 </devices>
 </deviceset>
-<deviceset name="FTSH-112-01-L-D-RA" prefix="J" uservalue="yes">
+<deviceset name="FTSH-112-CONN" prefix="J" uservalue="yes">
 <description>&lt;p&gt;
-&lt;strong&gt;SAMTEC FTSH-112-01-L-D-RA  HEADER, 1.27MM (0.05 in.), 2X12 POSITION, RIGHT ANGLE&lt;/strong&gt;
+&lt;strong&gt;SAMTEC FTSH-112-*  HEADER, 1.27MM (0.05 in.), 2X12 POSITION&lt;/strong&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -13426,6 +13460,9 @@ Mates with FFSD, FFTP, CLP, FLE, SFMC
 &lt;a href="http://www.newark.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15003&amp;langId=-1&amp;urlRequestType=Base&amp;partNumber=01R5259&amp;storeId=10194"&gt;http://www.newark.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15003&amp;langId=-1&amp;urlRequestType=Base&amp;partNumber=01R5259&amp;storeId=10194&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;
+&lt;a href="http://www.newark.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15003&amp;langId=-1&amp;urlRequestType=Base&amp;partNumber=01R5256&amp;storeId=10194"&gt;http://www.newark.com/webapp/wcs/stores/servlet/ProductDisplay?catalogId=15003&amp;langId=-1&amp;urlRequestType=Base&amp;partNumber=01R5256&amp;storeId=10194&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
 Datasheet: &lt;a href="http://www.farnell.com/datasheets/1596288.pdf"&gt;http://www.farnell.com/datasheets/1596288.pdf&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -13435,7 +13472,7 @@ Drawing: &lt;a href="http://www.farnell.com/cad/1561347.pdf"&gt;http://www.farne
 <gate name="G$1" symbol="FTSH-112-CONN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FTSH-112-01-L-D-RA">
+<device name="RIGHT-ANGLE" package="FTSH-112-01-L-D-RA">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$10" pad="P$10"/>
@@ -13465,6 +13502,39 @@ Drawing: &lt;a href="http://www.farnell.com/cad/1561347.pdf"&gt;http://www.farne
 <technologies>
 <technology name="">
 <attribute name="VALUE" value="FTSH-112-01-L-D-RA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="STRAIGHT" package="FTSH-112-01-L-D">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$10" pad="P$10"/>
+<connect gate="G$1" pin="P$11" pad="P$11"/>
+<connect gate="G$1" pin="P$12" pad="P$12"/>
+<connect gate="G$1" pin="P$13" pad="P$13"/>
+<connect gate="G$1" pin="P$14" pad="P$14"/>
+<connect gate="G$1" pin="P$15" pad="P$15"/>
+<connect gate="G$1" pin="P$16" pad="P$16"/>
+<connect gate="G$1" pin="P$17" pad="P$17"/>
+<connect gate="G$1" pin="P$18" pad="P$18"/>
+<connect gate="G$1" pin="P$19" pad="P$19"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$20" pad="P$20"/>
+<connect gate="G$1" pin="P$21" pad="P$21"/>
+<connect gate="G$1" pin="P$22" pad="P$22"/>
+<connect gate="G$1" pin="P$23" pad="P$23"/>
+<connect gate="G$1" pin="P$24" pad="P$24"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="FTSH-112-01-L-D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -19421,7 +19491,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U3" library="custom" deviceset="POLOLU-MINIMU-9-V3" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="J9" library="SRG" deviceset="JST-PH_4-PIN_HEADER" device=""/>
-<part name="J10" library="custom" deviceset="FTSH-112-01-L-D-RA" device="" value="FTSH-112-01-L-D-RA"/>
+<part name="J10" library="custom" deviceset="FTSH-112-CONN" device="RIGHT-ANGLE" value="FTSH-112-01-L-D-RA"/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="C4" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
