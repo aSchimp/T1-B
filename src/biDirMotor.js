@@ -18,7 +18,7 @@ function BiDirMotor(pwmPath, gpio1Path, gpio2Path) {
     self.setRotation(0);
 }
 
-// The value should be a number between -1 and 1. Negative values cause CCW rotation and positive values cause CW rotation. A value of 0 stops the motor. The absolute value controls the pwm duty cycle (speed).
+// The value should be a number between -1 and 1. Negative values cause CW rotation and positive values cause CCW rotation. A value of 0 stops the motor. The absolute value controls the pwm duty cycle (speed).
 BiDirMotor.prototype.setRotation = function(value) {
     var self = this;
 
